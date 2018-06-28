@@ -1,0 +1,21 @@
+
+td {
+  border: 5px solid rgb(0, 0, 0);
+  width: 200px;
+  height: 200px;
+  font-size: 175px;
+  text-align: center;
+  color: aquamarine;
+  background: crimson;
+
+
+}
+
+td:hover {
+  background: aquamarine;
+}
+
+table {
+  border: 1px solid black;
+}
+  
