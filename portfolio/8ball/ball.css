@@ -1,0 +1,39 @@
+
+
+#button {
+    background-color: darkorchid;
+    color: white;
+    width: 110px;
+    height: 110px;
+    border-radius: 70px;
+    padding: 15px 32px;
+    text-decoration: none;
+    font-size: 16px;
+    position: relative;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    top: 152px;
+    z-index: 1;
+}
+#ball{
+    background: url("8ball.jpeg");
+    width: 200px;
+    height: 200px;
+     margin: 0 auto;
+    background-size: 100% 100%;
+    position: relative;
+}
+body{
+    background: url("whitr.jpeg");
+    background-size: cover;
+
+    
+    
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: darkorchid;
+    text-shadow: 5px 5px 4px #000000;
+}

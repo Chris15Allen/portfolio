@@ -1,0 +1,101 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+#mazeDiv {
+    position: relative;
+}
+
+#avatar {
+    position: absolute; 
+    width: 33px; 
+    height: 33px; 
+    background: url('pixel.png'); 
+    background-size: contain; 
+    transition: all 0.1s;
+}
+
+#youWonDiv {
+    position: absolute; 
+    left: 8px; 
+    top: 140px; 
+    width: 500px; 
+    height: 500px; 
+    font-size: 50px; 
+    background: url('mj.gif') ;
+    background-size: 100% 100%;
+    text-align: center;
+    text-shadow: 0 1px 0 gold,
+               0 2px 0 gold,
+               0 3px 0 gold,
+               0 4px 0 gold,
+               0 5px 0 gold,
+               0 6px 1px goldenrod,
+               0 0 5px goldenrod,
+               0 1px 3px goldenrod,
+               0 3px 5px goldenrod,
+               0 5px 10px goldenrod,
+               0 10px 10px goldenrod,
+               0 20px 20px goldenrod;
+}
+
+#cube { 
+    position: absolute;
+    left: 550px;
+    top: 100px;
+    background: url('cube.gif');
+    width: 600px;
+    height: 400px;
+    background-size: 100% 100%;
+}
+
+.hidden {
+    display: none; 
+}
+
+.row {
+    display: flex; 
+    height: 33px;
+}
+
+.cell {
+    width: 33px; 
+    line-height: 33px;
+    text-align: center;
+}
+
+.W {
+    background: url('brick.png');
+    background-size: 100% 100% ; 
+
+}
+
+.O {
+    margin: 1px; 
+    width: 31px; 
+    height: 31px;
+    background: url('hoops.png');
+    background-size: 100% 100%;
+    
+}
+
+.crate {
+    position: absolute; 
+    width: 31px; 
+    height: 31px; 
+    margin: 1px; 
+    background: url('bask.jpeg');
+    opacity: 0.8;
+    background-size: 100% 100%;
+     
+    
+}
+
+h3 {
+    color:gold;
+}
+
+h1 {
+     color: gold;
+ }
